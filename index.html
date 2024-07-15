@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <tittle>Mon portfolio</tittle>
+        <meta charset="utf-8" />
+        <!--lier le fichier styles.css au document html-->
+        <link rel="stylesheet" href="styles.css">
+
+    </head> 
+    <body>
+        <!-- ajoutez les attributs des classes aux documents html-->
+         <header class=" main-header"></header>
+         <footer class="main-footer"></footer>
+         <content class="content"></content>
+         
+        
+        <!--CREATION D'UNE PAGE WEB QUI S'APPELLE PORTFOLIO-->
+        <header>
+            <h1> Bienvenue sur mon portfolio</h1>
+            <!--créer la barre de navigation-->
+            <nav>
+                <!--acceuil-->
+                <a href ="#Acceuil"> Acceuil</a> 
+                <a href ="#A-propos"> A-propos</a>
+                <a href =" #Travail"> Travail</a>
+                <a href =" #Cv"> Cv </a>
+                <a href ="#Contact"> Contact</a>
+                
+            </nav> 
+
+            <!--Insertion d'une image-->
+
+            <img title="ceci est une image de pikachu" src="image.png.png" alt="pikachu"
+            height="500px"
+            width="500px" 
+            >
+            
+               <section id ="A-propos ">
+                    <h2> A-propos</h2>
+                    <p> je suis un developpeur passioné par le code et la conception</p>
+                </section>
+
+                <section id ="Travail">
+                    <h2> Travail</h2>
+                    <p> voici une liste des mes futurs projets :</p>
+                    <ol>
+                        <li>
+                            projet 1: création d'un jeu vidéos
+                            <br>
+                            projet 2: améliorer ma relation avec AllAH
+                            <br>
+                            projet 3: devenir riche
+                            <br>
+                        </li>
+                    </ol>
+                </section>
+
+                <section id ="CV">
+                    <h2> CV</h2>
+                    <p> vous pouvez télécharger mon cv <a href ="cv.pdf"> ici</a>.</p>
+                </section>
+
+                <section id ="Contact">
+                    <h2> Contact</h2>
+                    <form>
+                        <label for="name"> Nom</label>
+                        <input type ="text" id = "Name"/>
+                        <br/><br/>
+
+                        <label for="email">Adresse mail</label>
+                        <input type = "email" id ="email"/>
+                        <br/><br/>
+
+                        <label for ="password"> password</label>
+                        <input type =" password" id ="password"/>
+                        <br/><br/>
+
+                        <button type ="submit"> Envoyer</button>
+                    </form>
+
+                </section>
+
+                <video controls width="800" height="400"
+                title="combat naruto vs sasuke">
+                    <source src="b.mp4.mp4" type="video/MP4"/>
+                </video>
+            
+
+        </header>
+        
+
+        <footer>
+            <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+        </footer>
+
+        
+    </body>
+</html>

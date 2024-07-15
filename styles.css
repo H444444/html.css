@@ -1,0 +1,41 @@
+/*Modifiez l'affichage de la barre de navigation pour la rendre en ligne.*/
+nav{
+    a{
+        display: inline;
+    }
+ }
+ /*changer la police en roboto*/
+ body{
+    font-family: Roboto;
+ }
+ /*soyons créatif dans le design */
+ h1{
+   display: block;
+   height: 100px;
+   width: 700px;
+   background-color: brown;
+   text-align: center;
+   color: white;
+ }
+ 
+ header {
+   nav{
+      a{
+         display: block;
+         height: 80px;
+         width: 700px;
+         background-color: burlywood;
+         text-align: center;
+         color: black;
+      }
+       
+   }
+ }
+ section{
+    display: block;
+    height: 300px;
+    width: 600px;
+    background-color: burlywood;
+    text-align: center;
+    color: black;
+ }
