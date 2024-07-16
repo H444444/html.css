@@ -7,11 +7,11 @@
         <link rel="stylesheet" href="styles.css">
 
     </head> 
-    <body>
+    <body bgcolor="burlywood">
         <!-- ajoutez les attributs des classes aux documents html-->
-         <header class=" main-header"></header>
-         <footer class="main-footer"></footer>
-         <content class="content"></content>
+         <header class=" entete"></header>
+         <footer class="pied de page"></footer>
+         <content class="contenu"></content>
          
         
         <!--CREATION D'UNE PAGE WEB QUI S'APPELLE PORTFOLIO-->
@@ -19,12 +19,15 @@
             <h1> Bienvenue sur mon portfolio</h1>
             <!--créer la barre de navigation-->
             <nav>
-                <!--acceuil-->
-                <a href ="#Acceuil"> Acceuil</a> 
-                <a href ="#A-propos"> A-propos</a>
-                <a href =" #Travail"> Travail</a>
-                <a href =" #Cv"> Cv </a>
-                <a href ="#Contact"> Contact</a>
+                <ul>
+                 <li><a href ="#Acceuil"> Acceuil</a> </li>
+                 <li><a href ="#A-propos"> A-propos</a></li>
+                 <li><a href =" #Travail"> Travail</a></li>
+                 <li><a href =" #Cv"> Cv </a></li>
+                 <li><a href ="#Contact"> Contact</a> </li>
+                
+                </ul>
+                
                 
             </nav> 
 
@@ -35,12 +38,12 @@
             width="500px" 
             >
             
-               <section id ="A-propos ">
+               <section class ="A-propos ">
                     <h2> A-propos</h2>
                     <p> je suis un developpeur passioné par le code et la conception</p>
                 </section>
 
-                <section id ="Travail">
+                <section class="Travail">
                     <h2> Travail</h2>
                     <p> voici une liste des mes futurs projets :</p>
                     <ol>
@@ -55,12 +58,12 @@
                     </ol>
                 </section>
 
-                <section id ="CV">
+                <section class ="CV">
                     <h2> CV</h2>
                     <p> vous pouvez télécharger mon cv <a href ="cv.pdf"> ici</a>.</p>
                 </section>
 
-                <section id ="Contact">
+                <section class ="Contact">
                     <h2> Contact</h2>
                     <form>
                         <label for="name"> Nom</label>

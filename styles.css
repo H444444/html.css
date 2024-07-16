@@ -1,41 +1,42 @@
-/*Modifiez l'affichage de la barre de navigation pour la rendre en ligne.*/
-nav{
-    a{
-        display: inline;
-    }
- }
- /*changer la police en roboto*/
- body{
-    font-family: Roboto;
- }
- /*soyons créatif dans le design */
- h1{
-   display: block;
-   height: 100px;
-   width: 700px;
-   background-color: brown;
-   text-align: center;
-   color: white;
- }
- 
- header {
-   nav{
-      a{
-         display: block;
-         height: 80px;
-         width: 700px;
-         background-color: burlywood;
-         text-align: center;
-         color: black;
-      }
-       
+/*modifier la barre de navigation pour la mettre en ligne*/
+header{
+   h1{
+      background-color: brown;
+      color: white;
+      height: 50px;
+      width: 600px;
    }
- }
- section{
-    display: block;
-    height: 300px;
-    width: 600px;
-    background-color: burlywood;
-    text-align: center;
-    color: black;
- }
+   nav{
+      ul{
+         display:flex;
+         li{
+            margin:10px;
+            list-style: none;
+            a{
+               text-decoration: none;
+               color: black;
+            }
+         }
+      }
+      display: block;
+      height: 50px;
+      width: 500px;
+      background-color: burlywood;
+      color: white;
+   }
+   font-family: roboto;
+
+   section{
+      h2{
+         display: block;
+         background-color: brown;
+         height: 30px;
+         width: 200px;
+         color: white;
+
+      }
+   }
+   
+
+   
+}
